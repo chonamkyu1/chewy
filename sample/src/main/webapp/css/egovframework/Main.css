@@ -1,0 +1,229 @@
+
+.ShopByPet {
+	width: 1440px; 
+	height: 330px;
+}
+/* .Shop_title_text { */
+/* 	color: #121212; */
+/*     font-size: 2rem; */
+/*     line-height: 2.5rem; */
+/*     margin: 0; */
+/*     padding: 0; */
+    
+/* } */
+.photo {
+	border : 1px solid black;
+/*  	text-align: center;  */
+	list-style: none;
+	display: flex;
+	margin: 0 auto;
+	gap : 1.6rem;
+	width: 1400px;
+	height: 282px;
+	padding-top: 20px;
+}
+
+.photo img {
+	width: 200px;
+	height: 200px;
+}
+.ShopByPet {
+	border : 1px solid black;
+}
+.petName {
+	text-align: center;
+}
+
+.slider .photo{
+	overflow: hidden;
+/* 	width: 1180px; */
+	margin: 0 auto;
+/* 	padding-bottom: 50px; */
+	border : 1px solid black;
+}
+.bxslider {
+	list-style: none;
+}
+
+.bx-prev {
+	background-color: #1c49c2;
+	color: #fff;
+}
+
+.bx-next {
+	background-color: #1c49c2;
+	color: #fff;
+}
+
+.slider_bottom_title {
+	list-style: none;	
+}
+
+
+.control_next {
+	background-color: #1c49c2;
+	color: #fff;
+}
+.control_icon {
+	height: 2.4rem;
+    width: 2.4rem;
+}
+
+.slider_bottom_title {
+	border : 1px solid black;
+	display : flex;
+	justify-content : space-around;
+	margin:  0 auto;
+	flex-flow: row;
+	list-style: none;
+	padding: 0;
+}
+/* .status_container { */
+/* 	    display: flex; */
+/*     flex-direction: column; */
+/*     position: relative; */
+/*     width: 100%; */
+/* } */
+
+.tile_content {
+	align-items: center;
+	display: flex;
+	height : 100%;
+	
+}
+
+.tile_link_whole {
+/* 	display: block; */
+    height: inherit;
+    padding: 1.7rem 0 1.7rem 8.333%;
+    text-decoration: none;
+}
+
+.banner , .Popular_Categories, .Poppy_Kitten, .Prescriptions_Delivered, .BrandsInStock, .slider_header {
+	border : 1px solid blue;
+}
+
+
+
+.Popular_Categories_header, .Poppy_kitten_header{
+	margin-bottom: 1.6rem;
+}
+
+.Popular_Categories_font, .Prescriptions_Delivered_header_font, .Shop_title_text, .BrandsInStock_header_font, .Discover_Pet_FavoritesByChewy_header_font {
+	font-family: Poppins,Noto Sans,Franklin Gothic Medium,Tahoma,sans-serif;
+    font-weight: 600;
+    letter-spacing: .01em;
+    color: #121212;
+    /* font-size: 2rem; */
+    line-height: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+.Prescriptions_Delivered_subheader_font {
+	color: #666;
+	letter-spacing: -0.03em;
+    line-height: 1.8rem;
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+
+.BrandsInStock_subheader_font {
+	color: #0e70be;
+	letter-spacing: -0.03em;
+    line-height: 1.8rem;
+    margin-bottom: 30px;
+    margin-top: auto;
+}
+.image_shape {
+	border-radius: 50%;
+	width: 222px;
+	height: 222px;
+}
+.image_text , Shop_title_text {
+/* 	font-family: "Work Sans","Noto Sans","Franklin Gothic Medium",Tahoma,sans-serif; */
+/*     font-size: 1.6rem; */
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+
+.grid_content {
+	flex-wrap: wrap;
+    display: flex;
+    margin: -1.6rem 0 0 -1.6rem;
+    justify-content: center;
+}
+
+.product_center_item_title {
+	    display: -webkit-box;
+    height: 5.4rem;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.Discover_Pet_FavoritesByChewy {
+	align-items: center;
+    display: grid;
+    grid-template-areas:
+        "header controls"
+        "content content";
+    grid-template-columns: 1fr -webkit-min-content;
+    grid-template-columns: 1fr min-content;
+    grid-template-rows: -webkit-min-content 1fr;
+    grid-template-rows: min-content 1fr;
+    margin-bottom: 1.6rem;
+}
+
+
+.Discover_Pet_FavoritesByChewy_content {
+	display: flex;
+    list-style: none;
+    margin: 0;
+    overflow-x: auto;
+    padding: 0;
+    scroll-snap-type: x mandatory;
+}
+
+.Discover_Pet_FavoritesByChewy_content li {
+	min-width: 46.875em;
+}
+
+.product_bottom_price {
+/* 	font-size: 1.8rem; */
+    line-height: 1.3333333333;
+    color: #d0021b;
+}
+
+.star_rating {
+	align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1.6rem;
+}
+
+.star_rating_label {
+	clip: rect(0 0 0 0);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.star_rating_stars {
+	color: #ff9800;
+    position: relative;
+}
+
+.star_rating_svg {
+	flex-shrink: 0;
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
